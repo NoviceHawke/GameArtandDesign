@@ -3,6 +3,7 @@ using UnityEngine;
 public class Enemy_Patrol : MonoBehaviour
 {//Please Check the varirable List and Build your object BEFORE you add your script or the object or you will pass Errors
     // for this code you will need 2 Empty Game Objects, to act as the two patrol end points, Ridgbody 2D, collider2D
+    //your empty game objects and ememy should be in an empty game obect that will act as the "container" 
 
     public GameObject pointA;
     public GameObject pointB;
@@ -86,4 +87,5 @@ public class Enemy_Patrol : MonoBehaviour
         Gizmos.DrawLine(pointA.transform.position,pointB.transform.position);
     }*/
 }
+
 
