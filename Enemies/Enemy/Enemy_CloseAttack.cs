@@ -34,7 +34,7 @@ public class Enemy_CloseAttack : MonoBehaviour
                 int r = Random.Range(0, 10);
                 if (r > 5)
                 {
-                    animator.SetTrigger("Attackl1");
+                    animator.SetTrigger("Attack1");
                     cooldownTimer = 0;
                 }
 
@@ -95,3 +95,4 @@ public void AttackDone() {
 
   
 }
+
