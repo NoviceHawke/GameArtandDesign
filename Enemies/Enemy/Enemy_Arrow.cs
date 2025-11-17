@@ -13,7 +13,7 @@ public class Enemy_Arrow : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        // be sure your spawn point is on the "right" side of your enemey  at creation, this will ensure that when fliped you are fireing in the correct direction. 
         rb.linearVelocity = transform.right * speed;
     }
 
@@ -37,3 +37,4 @@ public class Enemy_Arrow : MonoBehaviour
         }
     }
 }
+
